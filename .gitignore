@@ -1,0 +1,4 @@
+assets/**/*
+assets/*
+.DS_Store
+!.gitignore

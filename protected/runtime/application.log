@@ -1,0 +1,40 @@
+2013/08/20 04:43:04 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Você não tem acesso a este recurso' in /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/protected/extensions/restfullyii/components/ERestController.php:128
+Stack trace:
+#0 /Users/wayre/Sites/www/framework/web/filters/CInlineFilter.php(58): ERestController->filterRestAccessRules(Object(CFilterChain))
+#1 /Users/wayre/Sites/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/protected/extensions/restfullyii/components/ERestController.php(99): CFilterChain->run()
+#3 /Users/wayre/Sites/www/framework/web/filters/CInlineFilter.php(58): ERestController->filterHttpsOnly(Object(CFilterChain))
+#4 /Users/wayre/Sites/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/wayre/Sites/www/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/wayre/Sites/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/wayre/Sites/www/framework/web/CWebApplication.php(282): CController->run('restlist')
+#8 /Users/wayre/Sites/www/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/restLis...')
+#9 /Users/wayre/Sites/www/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/_estudos/Yii_restfull_sample/index.php/api/usuario
+---
+2013/08/20 04:54:35 [error] [exception.CHttpException.401] exception 'CHttpException' with message 'Você não tem acesso a este recurso' in /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/protected/extensions/restfullyii/components/ERestController.php:128
+Stack trace:
+#0 /Users/wayre/Sites/www/framework/web/filters/CInlineFilter.php(58): ERestController->filterRestAccessRules(Object(CFilterChain))
+#1 /Users/wayre/Sites/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#2 /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/protected/extensions/restfullyii/components/ERestController.php(99): CFilterChain->run()
+#3 /Users/wayre/Sites/www/framework/web/filters/CInlineFilter.php(58): ERestController->filterHttpsOnly(Object(CFilterChain))
+#4 /Users/wayre/Sites/www/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/wayre/Sites/www/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/wayre/Sites/www/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/wayre/Sites/www/framework/web/CWebApplication.php(282): CController->run('restlist')
+#8 /Users/wayre/Sites/www/framework/web/CWebApplication.php(141): CWebApplication->runController('usuario/restLis...')
+#9 /Users/wayre/Sites/www/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#10 /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/_estudos/Yii_restfull_sample/index.php/api/usuario
+---
+2013/08/20 04:58:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/wayre/Sites/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/wayre/Sites/www/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/wayre/Sites/www/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/wayre/Sites/www/_estudos/Yii_restfull_sample/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
